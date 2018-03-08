@@ -2,12 +2,10 @@
 
 namespace WebDAVSharp.Server
 {
-    /// <summary>
-    /// This abstract base class implements the <see cref="IDisposable" /> pattern in a reusable way.
-    /// </summary>
+    
     public abstract class WebDavDisposableBase : IDisposable
     {
-        private bool _isDisposed;
+private bool _isDisposed;
 
         /// <summary>
         /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
